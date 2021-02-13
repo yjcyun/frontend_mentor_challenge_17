@@ -230,6 +230,7 @@ p {
 // section-creation =============================================
 .section-creation {
   @include max-width-auto;
+  margin-bottom: 4rem;
   .section-creation__heading {
     display: flex;
     justify-content: space-between;
@@ -350,7 +351,6 @@ p {
 }
 
 // footer =======================================================
-// attribution ==================================================
 footer {
   background: $Black;
   display: flex;
